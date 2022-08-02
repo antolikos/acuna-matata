@@ -1,0 +1,307 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.container {
+    background-color: black;
+    padding: 0 80px;
+}
+header .top {
+    display: flex;
+    background: linear-gradient(rgb(222, 183, 29), rgb(181, 107, 16));
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-right: 10px;
+    box-shadow: 0 3px 4px rgba(31, 26, 24, 0.932);
+    
+}
+.logo p {
+margin: 0;
+}
+.logo p {
+    font-family: kirilic;
+    src: url(../fonts/teddy-bear.ttf);
+
+}
+ 
+
+
+.logo p:first-child {
+    color: rgb(15, 52, 85);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.596);
+}
+.logo p:last-child {
+    color: aquamarine;
+    text-indent: 30px;
+    font-size: 25px;
+}
+header .top form input {
+    padding: 5px;
+    border: 1px solid rgb(21, 147, 71);
+    border-radius: 10px;
+    outline: none;
+}
+header .top form button {
+    background: linear-gradient(#dc73128f,rgb(137, 161, 42));
+    color: rgb(169, 17, 30);
+    border: 1px solid rgb(195, 171, 118);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+.banner {
+    box-shadow: 0 2px 2px rgba(0,0,0, 0.7);
+    background: url(../images/afrika.jpg) no-repeat center center/cover;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner div {
+    font-family: sun;
+    src: url(../fonts/sun.ttf);
+}
+.banner div p {
+    color: rgb(145, 202, 65);
+    text-transform: uppercase;
+    text-shadow: 0 2px 3px rgba(0,0,0, 0.5);
+}
+.banner div p:first-child {
+    
+    font-size: 45px;
+}
+.banner div p:last-child {
+    font-weight: bold;
+    font-size: 50px;
+    text-indent: 20px;
+    color: rgb(98, 202, 29);
+    margin-right: 190px;
+}
+header nav {
+    background: linear-gradient(rgb(222, 183, 29), rgb(181, 107, 16));
+    padding: 10px 0 4px;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+header nav ul li {
+    list-style: none;
+    border-right: 1px solid hwb(106 48% 19%);
+    border-left: 1px solid rgba(45, 116, 21, 0.904);
+    padding: 10px 0;
+    flex-basis: 100%;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+
+header nav ul li a {
+    color: rgba(12, 56, 11, 0.696);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(0,0,0, 0.5);
+
+}
+header nav ul li :first-child {
+    border-left: none;
+}
+header nav ul li :last-child {
+    border-right: none;
+}
+.bottom_aside {
+    background: linear-gradient(rgb(177, 188, 116),rgb(73, 208, 46));
+    padding: 15px;
+}
+.content {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.content_left {
+    
+    flex-basis: 30%;
+}
+.content_left section {
+    background: linear-gradient(rgb(196, 201, 88),rgb(191, 146, 55));
+    padding: 4px;
+}
+.content_left section h3 {
+    text-transform: uppercase;
+    color: rgba(190, 70, 10, 0.783);
+    background: rgba(184, 177, 74, 0.966);
+    font-size: 18px;
+    text-shadow: 0 1px 2px rgba(0,0,0, 0.5);
+    padding: 10px 10px;
+    margin: 0;
+    text-align: center;
+
+}
+.content_left article {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px 10px;
+    border-bottom: 2px groove rgba(211, 213, 201, 0.845);
+}
+.content_left article img {
+    border: 2px solid rgb(181, 221, 112);
+    margin-right: 10px;
+}
+.content_left article p {
+    margin: 0;
+
+}
+.content_left article p a {
+    color: rgb(105, 62, 10);
+    font-weight: bold;
+}
+.content_left .bottom {
+background: url(../images/ife.jpg) no-repeat left 10% , linear-gradient(rgb(146, 103, 9), rgb(194, 181, 96));
+padding: 35px 0;
+margin-top: 10px;
+display: flex;
+justify-content: space-around;
+}
+.content_left .bottom .left p {
+    text-transform: uppercase;
+    color: rgb(20, 20, 20);
+    font-weight: bolder;
+    margin: 0;
+}
+.content_left .bottom .left p :last-child {
+    margin-left: 30px;
+
+}
+.content_left .bottom .left span {
+    font-size: 20px;
+    color: rgb(12, 20, 7);
+    text-shadow: 0 1px 2px rgba(0,0,0, 0.5);
+}
+
+
+.content_right {
+    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 69%;
+    justify-content: space-between;
+}
+.content_right .top {
+    background: linear-gradient(rgb(196, 201, 88),rgb(191, 146, 55));
+    flex-basis: 31%;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.content_right .top h2 {
+    color: rgba(190, 70, 10, 0.783);
+    font-size: 25px;
+    margin: 5px 0;
+    text-shadow: 0 1px 3px rgba(0,0,0, 0.5);
+}
+.content_right .top p {
+    line-height: 25px;
+    color: rgb(57, 31, 4);
+    src: url(../fonts/sun.ttf);
+   
+
+}
+
+.content_right .top a {
+    color: rgba(162, 33, 33, 0.603);
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+}
+.content_right .top a::before {
+    content: "\003E";
+    margin-right: 5px;
+}
+.content_right .bottom {
+    margin-top: 10px;
+     flex-basis: 67%;
+     background: linear-gradient(rgb(196, 201, 88),rgb(191, 146, 55));
+     padding: 10px;
+     box-sizing: border-box;
+}
+.content_right .bottom h2 {
+    color: rgba(190, 70, 10, 0.783);
+    text-transform: uppercase;
+    font-size: 20px;
+    background: rgb(169, 165, 36);
+    margin: 0;
+    padding: 10px 10px 8px;
+}
+.content_right .bottom .news {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.content_right .bottom .news .description {
+    flex-basis: 50%;
+
+}
+.content_right .bottom .news_links a {
+    display: block;
+    text-decoration: none;
+    margin: 5px 0;
+    color: rgb(30, 97, 7);
+}
+.news_links {
+    width: 90%;
+    margin: 20px auto 0;
+}
+.news_links a :hover {
+    text-decoration: underline;
+}
+.news_links a::before{
+    content: "\00BB";
+    margin-right: 10px;
+}
+footer {
+    margin-top: 10px;
+}
+footer ul {
+    display: flex;
+    background: linear-gradient(rgb(196, 201, 88),rgb(191, 146, 55));
+    margin: 0;
+    padding: 15px 0;
+    justify-content: center;
+    box-shadow: 0 2px 3px;
+}
+footer ul li {
+    list-style-type: none;
+    border-right: 2px solid rgb(136, 100, 47);
+    padding: 0 40px;
+}
+footer ul li :last-child {
+    border: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: rgb(136, 100, 47);
+    font-weight: bold;
+    text-align: center;
+}
+footer ul li :hover {
+    text-decoration: underline;
+}
